@@ -1,9 +1,9 @@
-import Alert from "./components/Alert";
+import AlertExample from "./components/AlertExample";
 
 
 function App() {
   return (
-    <Alert type='success' text="what is love?"/>
+    <AlertExample type='success' text="what is love?"/>
   );
 }
 

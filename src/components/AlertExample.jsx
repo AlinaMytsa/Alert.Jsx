@@ -1,7 +1,7 @@
 import React from "react";
 
 
-class Alert extends React.Component{
+class AlertExample extends React.Component{
   render() {
     const {text, type} = this.props;
 
@@ -14,7 +14,7 @@ class Alert extends React.Component{
   }
 }
 
-Alert.propTypes = {
+AlertExample.propTypes = {
   type: [
     'primary',
     'secondary',
@@ -26,4 +26,4 @@ Alert.propTypes = {
     'dark',
   ],
 }
-export default Alert;
+export default AlertExample;
